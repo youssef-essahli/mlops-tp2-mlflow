@@ -1,0 +1,27 @@
+# Environnement virtuel
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Données générées
+data/
+
+# Modèles générés
+models/
+
+# Rapports générés
+reports/
+
+# MLflow local
+mlflow.db
+mlartifacts/
+mlruns/
+
+# Éditeur
+.vscode/
+
+# Fichiers temporaires de vérification
+check_versions.py
+reset_registry.py
